@@ -1,80 +1,111 @@
-category,years,main_image,additional_images,product_name,part_number,product_description
-seats,,./category/seats/troxel_truform.jpg,,,,troxel truform
-seats,,./category/seats/brooks_b100.jpg,,,,
-seats,,./category/seats/brooks_b90.jpg,,,,
-seats,,./category/seats/harley_military_pan.jpg,,,,
-seats,,./category/seats/harley_solo_pan.jpg,,,,
-seats,,./category/seats/hunt.jpg,,,,
-seats,,./category/seats/mesinger_auto_cushion_number_two.jpg,,,,
-seats,,./category/seats/mesinger_cavlary_number_three.jpg,,,,
-seats,,./category/seats/mesinger_indian.jpg,,,,
-seats,,./category/seats/mesinger_number_one.jpg,,,,
-seats,,./category/seats/mesinger_racer_high_upturn.jpg,,,,
-seats,,./category/seats/mesinger_standard_number_four.jpg,,,,
-seats,,./category/seats/mesinger_superba.jpg,,,,
-seats,,./category/seats/messinger_number_three.jpg,,,,
-seats,,./category/seats/messinger_racer_low_upturn.jpg,,,,
-seats,,./category/seats/persons_leather_toolbox.jpg,,,,
-seats,,./category/seats/persons_pan_dandy.jpg,,,,
-seats,,./category/seats/sager.jpg,,,,
-seats,,./category/seats/seat-1.JPG,,,,
-seats,,./category/seats/troxel-ace_black.jpg,,,,
-seats,,./category/seats/troxel_ace_brown.jpg,,,,
-seats,,./category/seats/troxel_eagle.jpg,,,,
-seats,,./category/seats/troxel_jumbo.jpg,,,,
-seats,,./category/seats/troxel_leather_toolbox.jpg,,,,
-,,,,,,
-tanks,,./category/tanks/category_tank.jpg,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-harley,"[11,12,13]",category/harley/harley-11-13-rear-axle-adjusters.jpg,,rear axle adjusters,test number,test descriptions for longer
-harley,"[11,12,13,14]",category/harley/harley-11-14-belt-idler-quadrant.jpg,,belt idler quadrant,,
-harley,"[15,16]",category/harley/harley-15-24-front-and-rear-muffler-ends.jpg,,,,
-harley,[14],category/harley/1914 harley davidson brake pedal.JPG,,,,
-harley,[14],category/harley/1914 harley davidson single brake pedal.JPG,,,,
-harley,[15],category/harley/1915 harley davidson toolbox.JPG,,,,
-harley,"[11,12,13,14,15,16]",category/harley/harley-09-17-curved-control-sleeve.jpg,,,,
-harley,"[11,12,13,14,15,16]",category/harley/harley-09-29-upper-cone-washer.jpg,,,,
-harley,[11],category/harley/harley-10-11-magneto-lever.jpg,,,,
-harley,"[11,12,13,14]",category/harley/harley-10-14-idler-arm.jpg,,,,
-,,,,,,
-,,,,,,
-harley,"[11,12,13,14]",category/harley/harley-11-14-carburetor-control-rod.jpg,,,,
-harley,"[11,12,13,14]",category/harley/harley-11-14-front-fender-stays.jpg,,,,
-harley,"[11,12,13,14]",category/harley/harley-11-14-sixteen-tooth-pedal-crank-sprocket.jpg,,,,
-harley,"[11,12,13,14]",category/harley/harley-11-14-three-way-bell-crank-assembly.jpg,,,,
-harley,"[11,12,13,14]",category/harley/harley-11-14-three-way-bell-crank.jpg,,,,
-harley,"[11,12,13,14,15,16]",category/harley/harley-11-16-bell-crank-bracket.jpg,,,,
-harley,"[12,13]",category/harley/harley-12-13-hand-lever-quadrant.jpg,,,,
-harley,"[12,13,14]",category/harley/harley-12-14-intermediate-control-rod.jpg,,,,
-harley,"[12,13,14,15,16]",category/harley/harley-12-17-magneto-lever.jpg,,,,
-harley,"[12,13,14,15,16]",category/harley/harley-12-23-compression-relief-lever.jpg,,,,
-harley,[12],category/harley/harley-12-clutch-hand-lever.jpg,,,,
-harley,"[13,14]",category/harley/harley-13-14-clutch-control-assembly.jpg,,,,
-harley,"[13,14]",category/harley/harley-13-14-clutch-control-lever.jpg,,,,
-harley,[13],category/harley/harley-13-right-crank-extension-plate.jpg,,,,
-harley,"[14,15,16]",category/harley/harley-14-26-rear-axle-adjusters.jpg,,,,
-harley,[14],category/harley/harley-14-hand-lever-quadrant.jpg,,,,
-harley,"[15,16]",category/harley/harley-15-16-three-way-bell-crank-assembly.jpg,,,,
-harley,"[15,16]",category/harley/harley-15-23-intermediate-control-rod.jpg,,,,
-harley,"[15,16]",category/harley/harley-15-23-relief-pipe.jpg,,,,
-harley,"[15,16]",category/harley/harley-15-24-three-way-bell-crank.jpg,,,,
-harley,[15],category/harley/harley-15-front-fender-brace.jpg,,,,
-harley,[16],category/harley/harley-17-24-bell-crank-bracket.jpg,,,,
-harley,[16],category/harley/harley-17-24-three-way-bell-crank-assembly.jpg,,,,
-harley,[16],category/harley/harley-18-23-compression-release-and-spark-control-lever.jpg,,,,
+id,category,subcategory,years,main_image,additional_images,price,product_name,part_number,product_description
+ams-1,seats,all prices are for leather work only,,./category/seats/troxel_truform.jpg,,,Troxel Truform,,"new curved plywood base, padded & sewn, top and bottom leather "
+ams-2,seats,all prices are for leather work only,,./category/seats/brooks_b100.jpg,,$310 (w/ Brooks name  $350),Brooks B100,,"as on first Indians, British made. Molded with liner, NOS nickled strap eyelets and Brooks metal patent plate on rear"
+ams-3,seats,all prices are for leather work only,,./category/seats/brooks_b90.jpg,,$310 (w/ Brooks name  $350),Brooks B90,,"as on first Indians, British made. Molded with liner, NOS nickled strap eyelets and Brooks metal patent plate on rear"
+ams-4,seats,all prices are for leather work only,,./category/seats/harley_military_pan.jpg,,,Harley Davidson Military Pan,,
+ams-5,seats,all prices are for leather work only,,./category/seats/harley_solo_pan.jpg,,,Harley Davidson Solo Pan,,
+ams-6,seats,all prices are for leather work only,,./category/seats/hunt.jpg,,,Hunt,,
+ams-7,seats,all prices are for leather work only,,./category/seats/mesinger_auto_cushion_number_two.jpg,,$300,Mesinger Auto Cushion #2,,"small steel pan, script or block letter logo, Cleveland used '18-'19. H.D.used on  early  '26  single. A few fiberglass repro pans are available see listing below"
+ams-8,seats,all prices are for leather work only,,./category/seats/mesinger_cavalry_number_three.jpg,,$410,Mesinger Cavalry #3,,"1909 and later, new plywood forked base with vent hole"
+ams-9,seats,all prices are for leather work only,,./category/seats/mesinger_indian.jpg,,$410,Mesinger Indian,,with Indian Head logo
+ams-10,seats,all prices are for leather work only,,./category/seats/mesinger_number_one.jpg,,$350,Mesinger #1,,"In script logo, steel pan, with flat rear profile,used on H.D.,& Indian singles from 1926"
+ams-11,seats,all prices are for leather work only,,./category/seats/mesinger_racer_high_upturn.jpg,,,Mesinger Racer High Upturn,,
+ams-12,seats,all prices are for leather work only,,./category/seats/mesinger_standard_number_four.jpg,,$310,Mesinger Standard #4,,"open nose with nose coil spring, molded one piece with liner, patented 1909"
+ams-13,seats,all prices are for leather work only,,./category/seats/mesinger_superba.jpg,,,Mesinger Superba,,
+ams-14,seats,all prices are for leather work only,,./category/seats/Mesinger Number Three.jpg,,,Mesinger #3,,
+ams-15,seats,all prices are for leather work only,,./category/seats/mesinger_racer_low_upturn.jpg,,,Mesinger Racer Low Upturn,,
+ams-16,seats,all prices are for leather work only,,./category/seats/persons_pan_dandy.jpg,,,Persons Pan Dandy,,"with 4 transverse springs across rear, padded and sewn"
+ams-17,seats,all prices are for leather work only,,./category/seats/sager.jpg,,,Sager,,
+ams-18,seats,all prices are for leather work only,,./category/seats/seat-1.JPG,,,?,,
+ams-19,seats,all prices are for leather work only,,./category/seats/troxel-ace_black.jpg,,$410,Troxel Ace,,"l9l9 thru l923, similar to above but with sewn center depression, script Troxel logo"
+ams-20,seats,all prices are for leather work only,,./category/seats/troxel_ace_brown.jpg,,$410,Troxel Ace,,"l9l9 thru l923, similar to above but with sewn center depression, script Troxel logo"
+ams-21,seats,all prices are for leather work only,,./category/seats/troxel_eagle.jpg,,$310,Troxel Eagle,,"Open nose, with nose coil spring, used thru 1911, leather covered  brace, nickled strap eyelets, Troxel Eagle can have logo for Flanders, Pope, Indian, and Excelsior"
+ams-22,seats,all prices are for leather work only,,./category/seats/troxel_jumbo.jpg,,$410,Troxel Jumbo,,"Started l9l6, new curved plywood inner base, top/ bottom leather, padded & sewn, flat & wide"
+ams-23,seats,all prices are for leather work only,,./category/harley-davidson/troxel-seat-clamp.jpg,,,Troxel Seat Clamp,,
+ams-24,seats,toolboxes,,./category/seats/persons_leather_toolbox.jpg,,,Person Leather Toolbox,,
+ams-25,seats,toolboxes,,./category/seats/troxel_leather_toolbox.jpg,,,Troxel Leather Toolbox,,
+ams-27,tanks,harley-davidson,"[""1915""]",./category/harley-davidson/1915-single-tank.jpg,"[""./category/harley-davidson/1915-single-tank-2.jpg"",""./category/harley-davidson/1915-single-tank-3.jpg""]",,1915 Single Tank,,
+ams-28,tanks,harley-davidson,"[""1912""]",./category/harley-davidson/1912-single-tank.jpg,"[""./category/harley-davidson/1912-single-tank-2.jpg"",""./category/harley-davidson/1912-single-tank-3.jpg""]",,1912 Single Tank,,
+ams-31,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914"",""1915"",""1916""]",./category/harley-davidson/1909-1917-curved-control-sleeve.jpg,,$55,Curved Control Sleeve,,Fits year(s) 1909 to 1917
+ams-33,harley-davidson,controls,"[""1911""]",./category/harley-davidson/1910-1911-magneto-lever.jpg,,$70,Magneto Lever,,Fits year(s) 1910 to 1911
+ams-34,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914""]",./category/harley-davidson/1910-1914-idler-arm.jpg,,$140,Idler Arm,,Fits year(s) 1910 to 1914
+ams-35,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914""]",./category/harley-davidson/1911-1914-carburetor-control-rod.jpg,,$55,Carburetor Control Rod,,Fits year(s) 1911 to 1914
+ams-36,harley-davidson,sheetmetal,"[""1911"",""1912"",""1913"",""1914""]",./category/harley-davidson/1911-1914-front-fender-stays.jpg,,$55,Front Fender Stays,,Fits year(s) 1911 to 1914
+ams-37,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914""]",./category/harley-davidson/1911-1914-sixteen-tooth-pedal-crank-sprocket.jpg,,$85,Sixteen Tooth Pedal Crank Sprocket,,Fits year(s) 1911 to 1914
+ams-38,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914""]",./category/harley-davidson/1911-1914-three-way-bell-crank-assembly.jpg,,$110,Three Way Bell Crank Assembly,,Fits year(s) 1911 to 1914
+ams-39,harley-davidson,controls,"[""1915"",""1916""]",./category/harley-davidson/1915-1916-three-way-bell-crank-assembly.jpg,,$110,Three Way Bell Crank Assembly,,Fits year(s) 1915 to 1916
+ams-40,harley-davidson,controls,"[""1916""]",./category/harley-davidson/1917-1924-three-way-bell-crank-assembly.jpg,,$90,Three Way Bell Crank Assembly,,Fits year(s) 1917 to 1924
+ams-41,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914""]",./category/harley-davidson/1911-1914-three-way-bell-crank.jpg,,$50,Three Way Bell Crank,,Fits year(s) 1911 to 1914
+ams-42,harley-davidson,controls,"[""1915"",""1916""]",./category/harley-davidson/1915-1924-three-way-bell-crank.jpg,,$50,Three Way Bell Crank,,Fits year(s) 1915 to 1924
+ams-43,harley-davidson,controls,"[""1911"",""1912"",""1913"",""1914"",""1915"",""1916""]",./category/harley-davidson/1911-1916-bell-crank-bracket.jpg,,$55,Bell Crank Bracket,,Fits year(s) 1911 to 1916
+ams-44,harley-davidson,controls,"[""1916""]",./category/harley-davidson/1917-1924-bell-crank-bracket.jpg,,$40,Bell Crank Bracket,,Fits year(s) 1917 to 1924
+ams-86,harley-davidson,controls,"[""1911"", ""1912"", ""1913"",""1914""]",./category/harley-davidson/1911-1914-belt-idler-quadrant.jpg,,$30,Belt Idler Quadrant,,Fits year(s) 1911 to 1914
+ams-45,harley-davidson,controls,"[""1912"",""1913""]",./category/harley-davidson/1912-1913-hand-lever-quadrant.jpg,,$40,Hand Lever Quadrant,,Fits year(s) 1912 to 1913
+ams-54,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-hand-lever-quadrant.jpg,,$40,Hand Lever Quadrant,,Fits year(s) 1914
+,,,,,,,,,
+ams-47,harley-davidson,controls,"[""1912"",""1913"",""1914"",""1915"",""1916""]",./category/harley-davidson/1912-1917-magneto-lever.jpg,,$85,Magneto Lever,,Fits year(s) 1912 to 1917
+ams-48,harley-davidson,controls,"[""1912"",""1913"",""1914"",""1915"",""1916""]",./category/harley-davidson/1912-1923-compression-relief-lever.jpg,,$10,Compression Relief Lever,,Fits year(s) 1912 to 1923
+ams-49,harley-davidson,controls,"[""1912""]",./category/harley-davidson/1912-clutch-hand-lever.jpg,,$200,Clutch Hand Lever,,Fits year(s) 1912
+ams-50,harley-davidson,controls,"[""1913"",""1914""]",./category/harley-davidson/1913-1914-clutch-control-assembly.jpg,,,Clutch Control Assembly,,Fits year(s) 1913 to 1914
+ams-51,harley-davidson,controls,"[""1913"",""1914""]",./category/harley-davidson/1913-1914-clutch-control-lever.jpg,,$225,Clutch Control Lever,,Fits year(s) 1913 to 1914
+,,,,,,,,,
+,,,,,,,,,
+ams-56,harley-davidson,,"[""1915"",""1916""]",./category/harley-davidson/1915-1923-relief-pipe.jpg,,$55,Relief Pipe,,Fits year(s) 1915 to 1923
+ams-57,harley-davidson,sheetmetal,"[""1915""]",./category/harley-davidson/1915-front-fender-brace.jpg,,$55,Front Fender Brace,,Fits year(s) 1915
+ams-58,harley-davidson,controls,"[""1916""]",./category/harley-davidson/1918-1923-compression-release-and-spark-control-lever.jpg,,$50,Compression Release And Spark Control Lever,,Fits year(s) 1918 to 1923
+ams-59,harley-davidson,frame,"[""1912,""1913"",""1914""]",./category/harley-davidson/1912-1914-full-floater-seat-bar.jpg,"[""./category/harley-davidson/1912-1914-full-floater-seat-bar-2.jpg""]",$200,Full Floater Seat Bar,,Fits year(s) 1912 to 1914
+ams-60,harley-davidson,sheetmetal,"[""1913,""1914"",""1915""]",./category/harley-davidson/1913-1915-rear-stand-clip.jpg,,$100,Rear Stand Clip,,Fits year(s) 1913 to 1915
+ams-61,harley-davidson,sheetmetal,"[""1913""]",./category/harley-davidson/1913-front-belt-guard.jpg,,$150,Front Belt Guard,,Fits year(s) 1913
+,,,,,,,,,
+ams-63,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-twin-running-board-assembly.jpg,"[""./category/harley-davidson/1914-twin-running-board-assembly-2.jpg""]",$800,Twin Running Board Assembly,,Fits year(s) 1914
+ams-64,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-sidebar-brake-assembly.jpg,"[""./category/harley-davidson/1914-sidebar-brake-assembly-2.jpg""]",$375,Sidebar Brake Assembly,,Fits year(s) 1914
+ams-65,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-sidebar-clutch-assembly.jpg,"[""./category/harley-davidson/1914-sidebar-clutch-assembly-2.jpg""]",$425,Sidebar Clutch Assembly,,Fits year(s) 1914
+ams-66,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-brake-pedal.jpg,"[""./category/harley-davidson/1914-brake-pedal-2.jpg""]",$200,Brake Pedal,,Fits year(s) 1914
+ams-67,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-clutch-pedal.jpg,"[""./category/harley-davidson/1914-clutch-pedal-2.jpg""]",$250,Clutch Pedal,,Fits year(s) 1914
+ams-68,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-clutch-sidebar.jpg,"[""./category/harley-davidson/1914-clutch-sidebar-2.jpg""]",$175,Clutch Sidebar,,Fits year(s) 1914
+ams-69,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-single-brake-pedal.jpg,"[""./category/harley-davidson/1914-single-brake-pedal-2.jpg""]",$200,Single Brake Pedal,,Fits year(s) 1914
+ams-70,harley-davidson,controls,"[""1914""]",./category/harley-davidson/1914-twin-brake-pedal.jpg,"[""./category/harley-davidson/1914-twin-brake-pedal-2.jpg""]",$200,Twin Brake Pedal,,Fits year(s) 1914
+ams-71,harley-davidson,controls,"[""1915""]",./category/harley-davidson/1915-running-board-assembly.jpg,"[""./category/harley-davidson/1915-running-board-assembly-2.jpg""]",$900,Running Board Assembly,,Fits year(s) 1915
+ams-2000,harley-davidson,controls,"[""1915"",""1916""]",./category/harley-davidson/1915-1916-sidebar-clutch-assembly.jpg,"[""./category/harley-davidson/1915-1916-sidebar-clutch-assembly-2.jpg""]",$350,Sidebar Brake Assembly,,
+ams-72,harley-davidson,controls,"[""1915""]",./category/harley-davidson/1915-sidebar-brake-assembly.jpg,"[""./category/harley-davidson/1915-sidebar-brake-assembly-2.jpg""]",$350,Sidebar Brake Assembly,,Fits year(s) 1915
+ams-73,harley-davidson,controls,"[""1914,""1915"",""1916""]",./category/harley-davidson/1914-1916-brake-sidebar.jpg,"[""./category/harley-davidson/1914-1916-brake-sidebar-2.jpg""]",$125,Brake Sidebar,,Fits year(s) 1914 to 1916
+ams-74,harley-davidson,controls,"[""1915"",""1916""]",./category/harley-davidson/1915-1916-clutch-sidebar.jpg,"[""./category/harley-davidson/1915-1916-clutch-sidebar-2.jpg""]",$175,Clutch Sidebar,,Fits year(s) 1915 to 1916
+ams-75,harley-davidson,controls,"[""1915"",""1916""]",./category/harley-davidson/1915-1923-clutch-pedal.jpg,"[""./category/harley-davidson/1915-1923-clutch-pedal-2.jpg""]",$300,Clutch Pedal,,Fits year(s) 1915 to 1923
+ams-76,harley-davidson,controls,"[""1915""]",./category/harley-davidson/1915-brake-pedal.jpg,"[""./category/harley-davidson/1915-brake-pedal-2.jpg""]",$200,Brake Pedal,,Fits year(s) 1915
+ams-77,harley-davidson,controls,"[""1916""]",./category/harley-davidson/1916-1923-brake-pedal.jpg,"[""./category/harley-davidson/1916-1923-brake-pedal-2.jpg""]",$200,Brake Pedal,,Fits year(s) 1916 to 1923
+ams-78,harley-davidson,sheetmetal,"[""1915""]",./category/harley-davidson/1915-dirt-trap.jpg,"[""./category/harley-davidson/1915-dirt-trap-2.jpg""]",$135,Dirt Trap,,Fits year(s) 1915
+ams-80,harley-davidson,frame,"[""1915""]",./category/harley-davidson/1915-tailpipe.jpg,,$55,Tailpipe,,Fits year(s) 1915
+,,,,,,,,,
+ams-82,harley-davidson,frame,"[""1911"", ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/1909-1929-upper-cone-washer.jpg,,$10,Upper Cone Washer,,Fits year(s) 1909 to 1929
+ams-83,harley-davidson,controls,"[""1911""]",./category/harley-davidson/1910-1911-magneto-lever.jpg,,$10,Magneto Lever,,Fits year(s) 1910 to 1911
+,,,,,,,,,
+ams-85,harley-davidson,controls,"[""1911"", ""1912"", ""1913"",""1914""]",./category/harley-davidson/1910-1914-idler-lever-stud.jpg,,$85,Idler Lever Stud,,Fits year(s) 1910 to 1914
+,,,,,,,,,
+,,,,,,,,,
+ams-91,harley-davidson,controls,"[ ""1912"", ""1913"",""1914""]",./category/harley-davidson/1912-1914-intermediate-control-rod.jpg,,$140,Intermediate Control Rod,,Fits year(s) 1912 to 1914
+ams-92,harley-davidson,controls,"[ ""1912"", ""1913"",""1914""]",./category/harley-davidson/1912-1923-compression-relief-lever.jpg,,$85,Compression Relief Lever,,Fits year(s) 1912 to 1923
+ams-93,harley-davidson,controls,"[ ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/1912-1924-exhaust-lever.jpg,,$10,Exhaust Lever,,Fits year(s) 1912 to 1924
+ams-94,harley-davidson,frame,"[ ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/1912-1924-rear-cylinder-bracket.jpg,,$30,Rear Cylinder Bracket,,Fits year(s) 1912 to 1924
+ams-95,harley-davidson,controls,"[ ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/1912-1924-spark-control-lever.jpg,,$35,Spark Control Lever,,Fits year(s) 1912 to 1924
+ams-96,harley-davidson,controls,"[""1912""]",./category/harley-davidson/1912-clutch-hand-lever.jpg,,$180,Clutch Hand Lever,,Fits year(s) 1912
+ams-97,harley-davidson,controls,"[""1913"", ""1914""]",./category/harley-davidson/1913-1914-clutch-control-assembly.jpg,,,Clutch Control Assembly,,Fits year(s) 1913 to 1914
+ams-98,harley-davidson,controls,"[""1913"", ""1914""]",./category/harley-davidson/1913-1914-clutch-control-lever.jpg,,$200,Clutch Control Lever,,Fits year(s) 1913 to 1914
+ams-99,harley-davidson,frame,"[""1913""]",./category/harley-davidson/1913-right-crank-extension-plate.jpg,,$50,Right Crank Extension Plate,,Fits year(s) 1913
+ams-100,harley-davidson,frame,"[""1914"", ""1915"", ""1916""]",./category/harley-davidson/1914-1926-rear-axle-adjusters.jpg,,$20,Rear Axle Adjusters,,Fits year(s) 1914 to 1926
+ams-101,harley-davidson,frame,"[""1911"",""1912"",""1913""]",./category/harley-davidson/1911-1913-rear-axle-adjusters.jpg,,$20,Rear Axle Adjusters,test number,Fits year(s) 1911 to 1913
+ams-102,harley-davidson,frame,"[""1914""]",./category/harley-davidson/1914-exhaust-pipes.jpg,"[""./category/harley-davidson/1914-exhaust-pipes-2""]",$160,Exhaust Pipes,,Fits year(s) 1914
+ams-106,harley-davidson,frame,"[""1915"",""1916""]",./category/harley-davidson/1915-1924-exhaust-pipes.jpg,"[""./category/harley-davidson/1915-1924-exhaust-pipes-2.jpg""]",$120,Exhaust Pipes,,Fits year(s) 1915 to 1924
+ams-104,harley-davidson,controls,"[""1915"",""1916""]",./category/harley-davidson/1915-1923-intermediate-control-rod.jpg,,$80,Intermediate Control Rod,,Fits year(s) 1915 to 1923
+ams-105,harley-davidson,frame,"[""1915"",""1916""]",./category/harley-davidson/1915-1923-relief-pipe.jpg,,$50,Relief Pipe,,Fits year(s) 1915 to 1923
+ams-107,harley-davidson,frame,"[""1915"",""1916""]",./category/harley-davidson/1915-1924-front-and-rear-muffler-ends.jpg,"[""./category/harley-davidson/1915-1924-front-and-rear-muffler-ends-2.jpg""]",$120,Front And Rear Muffler Ends,,Fits year(s) 1915 to 1924
+ams-108,harley-davidson,sheetmetal,"[""1915"",""1916""]",./category/harley-davidson/1915-and-up-tank-mount-bracket.jpg,,$30,Tank Mount Bracket,,Fits year(s) 1915 and up
+ams-109,harley-davidson,sheetmetal,"[""1915""]",./category/harley-davidson/1915-front-fender-brace.jpg,,$55,Front Fender Brace,,Fits year(s) 1915
+ams-110,harley-davidson,sheetmetal,"[""1915""]",./category/harley-davidson/1915-rear-fender-stays.jpg,,$120,Rear Fender Stays,,Fits year(s) 1915
+ams-111,harley-davidson,sheetmetal,"[""1916""]",./category/harley-davidson/1918-1923-compression-release-and-spark-control-lever.jpg,,$40,Compression Release And Spark Control Lever,,Fits year(s) 1918 to 1923
+ams-112,harley-davidson,frame,"[""1916""]",./category/harley-davidson/1925-and-up-tool-box-bracket.jpg,,$35,Tool Box Bracket,,Fits year(s) 1925 and up
+ams-113,harley-davidson,frame,"[""1911"", ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/1909-1915-muffler-bracket-casting.jpg,"[""./category/harley-davidson/1909-1915-muffler-bracket-casting-2.jpg""]",,Muffler Bracket Casting,,Fits year(s) 1909 to 1915
+ams-114,harley-davidson,frame,"[""1911"", ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/1912-1914-center-post-casting.jpg,"[""./category/harley-davidson/1912-1914-center-post-casting-2.jpg""]",,Center Post Casting,,Fits year(s) 1912 to 1914
+,,,,,,,,,
+ams-115,harley-davidson,frame,"[""1911"", ""1912"", ""1913"", ""1914"", ""1915"", ""1916""]",./category/harley-davidson/troxel-seat-clamp.jpg,,$175,Troxel Seat Clamp,,
+ams-116,harley-davidson,sheetmetal,"[""1912""]",./category/harley-davidson/1912-single-tank.jpg,"[""./category/harley-davidson/1912-single-tank-2.jpg"",""./category/harley-davidson/1912-single-tank-3.jpg""]","$2,150",Single Tank,,Fits year(s) 1912
+ams-117,harley-davidson,sheetmetal,"[""1915""]",./category/harley-davidson/1915-single-tank.jpg,"[""./category/harley-davidson/1915-single-tank-2.jpg"",""./category/harley-davidson/1915-single-tank-3.jpg""]","$2,000",Single Tank,,Fits year(s) 1915
