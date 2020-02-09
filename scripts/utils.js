@@ -144,13 +144,13 @@ const utils = {
   },
 
   homePageHtml: function(){
-  return ` <div class="item_group_wrapper">
-      <div class="category_img">
-        <div class="img_wrapper">
-          <img class="image_style" src="./12_harley_main.jpg" alt="image of a 1912 harley davidson motorcycle">
+    return ` <div class="item_group_wrapper">
+        <div class="category_img">
+          <div class="img_wrapper">
+            <img class="image_style" src="./12_harley_main.jpg" alt="image of a 1912 harley davidson motorcycle">
+          </div>
         </div>
-      </div>
-    </div>`
+      </div>`
   },
 
   howToOrderHtml: function (){
@@ -183,33 +183,25 @@ const utils = {
   },
 
   attachProductImageHandler: function(){
-  const modal = document.getElementById("myModal");
-  const productFull = document.getElementById("product_full");
-  const modalImg = document.getElementById("imgO1");
-  const captionText = document.getElementById("caption");
+    const modal = document.getElementById("myModal");
+    const productFull = document.getElementById("product_full");
+    const modalImg = document.getElementById("imgO1");
+    const captionText = document.getElementById("caption");
 
-  if(productFull){
-    productFull.addEventListener('click', function(event){
-    const currentImage = event.target;
-      if(event.target.src){
-        modal.style.display = "block";
-        modalImg.src = currentImage.src;
-        captionText.innerHTML = currentImage.alt;
-      }
-    });
-    const span = document.getElementsByClassName("close")[0];
-    span.addEventListener("click", function(event){
-      modal.style.display = "none";
-    });
+    if(productFull){
+      productFull.addEventListener('click', function(event){
+      const currentImage = event.target;
+        if(event.target.src){
+          modal.style.display = "block";
+          modalImg.src = currentImage.src;
+          captionText.innerHTML = currentImage.alt;
+        }
+      });
+      const span = document.getElementsByClassName("close")[0];
+      span.addEventListener("click", function(event){
+        modal.style.display = "none";
+      });
+    }
   }
 }
-}
 
-
-
-
-
-
-// https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.competitiondist.com%2Fproducts%2F451-09-harley-jd-engine-case-stud-nuts-18-pcs-1910-1932-j-jd-jdh-fd-vl-etc
-// onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250');
-// "https://www.facebook.com/sharer/sharer.php?u=&t="

@@ -139,7 +139,7 @@ ul li {
 .product_details, .how_to_order{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly
+  justify-content: space-evenly;
   background-color: white;
   border-radius: 10px;
   padding: 10px;
