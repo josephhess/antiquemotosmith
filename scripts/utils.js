@@ -60,7 +60,7 @@ const utils = {
             <div class="item_group_wrapper">
               <div class="category_img">
                 <div class="img_wrapper">
-                  <img class="image_style" src="${item.main_image.replace(item.category, `${item.category}${'/'}${'thumbnails'}`)}">
+                  <img class="image_style" src="${item.thumbs}">
 
                     <div class="item_short_desc">
                       ${item.product_name}
