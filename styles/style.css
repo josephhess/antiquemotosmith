@@ -178,8 +178,8 @@ flex-wrap: wrap;
 }
 
 .item_short_desc {
-  top: -60px;
-  position: relative;
+  position: absolute;
+  bottom: 10px;
   background-color: white;
   width: 90%;
   margin-right: auto;
@@ -193,6 +193,8 @@ flex-wrap: wrap;
   text-overflow: ellipsis;
   overflow: auto;
   font-size: 75%;
+  left: 0;
+  right: 0;
 }
 
 .row_wrapper {
