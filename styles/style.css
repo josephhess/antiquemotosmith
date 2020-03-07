@@ -22,6 +22,14 @@ h2 {
 img {
   vertical-align: middle;
 }
+.new_item_banner {
+  text-align: center;
+  padding-bottom: 5px;
+  border: 2px darkgrey solid;
+  border-radius: 5px;
+  padding-top: 5px;
+  background: lightgray;
+}
 
 .address {
   margin-top: 10px;
