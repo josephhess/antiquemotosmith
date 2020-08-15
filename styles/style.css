@@ -153,7 +153,7 @@ flex-wrap: wrap;
   flex-direction: column;
   margin-bottom: 10px;
 }
-.product_details, .how_to_order{
+.product_details, .how_to_order, .bike_sale{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -163,6 +163,9 @@ flex-wrap: wrap;
   min-height: 200px;
 }
 
+.bike_sale ul li {
+  justify-content: left
+}
 .how_to_order {
   min-height: 500px;
 }

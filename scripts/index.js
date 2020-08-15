@@ -53,6 +53,8 @@ function render(){
     html = utils.categoryPageBuilder(urlCat, urlYear);
   } else if (urlCat === "how_to_order"){
     html = utils.howToOrderHtml();
+  } else if (urlCat === "bike_sale"){
+    html = utils.bikePageHtml();
   } else {
     html = utils.homePageHtml();
   }

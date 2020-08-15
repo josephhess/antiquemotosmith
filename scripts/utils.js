@@ -155,6 +155,53 @@ const utils = {
       </div>`
   },
 
+  bikePageHtml: function(){
+    return `
+
+    <div class="bike_sale">
+      <h2 class="bold">1911 Harley Davidson Single </h2>
+      <h4>$27,000 o.b.o</h4>
+      <p>A super complete, restoration ready project bike.</p>
+      <p>New wrist pin for pulley side, all new gears, new drive pulley
+      <p>Easier to list what's missing:
+      <ul>
+        <li>Handlebar twists</li>
+        <li>Tires</li>
+        <li>Seat</li>
+        <li>Oil and Gas lines, Oil Dripper</li>
+        <li>Chain</li>
+      </ul>
+
+      </p>
+    </div>
+    <div class="item_group_wrapper">
+      <div class="category_img">
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5332.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5333.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5335.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5337.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5339.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5340.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+        <div class="img_wrapper">
+          <img class="image_style" src="./bike_images/IMG_5344.jpg" alt="image of a 1911 harley davidson motorcycle">
+        </div>
+      </div>
+    </div>`
+  },
+
   howToOrderHtml: function (){
     return `
               <div class="how_to_order">
